@@ -57,13 +57,13 @@ main {
   background-color: var(--col-display-bg);
 }
 
-.sidebar__link:active {
+.sidebar__link--active {
   background-color: var(--col-display-bg);
 }
 
 .design-system__content-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   flex-basis: 85%;
   background-color: var(--col-display-bg);
   padding: var(--sp-4);
