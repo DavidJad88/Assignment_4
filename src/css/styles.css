@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("../assets/fonts/Roboto-Bold.ttf");
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.design-system {
+  width: 100%;
+  height: inherit;
+  display: flex;
+}
+
+.design-system__sidebar-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 15%;
+  align-items: center;
+  background-color: var(--col-sidebar-bg);
+  padding-top: var(--sp-4);
+  border-right: var(--col-border);
+}
+
+.sidebar__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  gap: var(--sp-4);
+  list-style: none;
+  font-family: Roboto-Regular;
+}
+
+.sidebar__link {
+  padding: var(--sp-3) var(--sp-2);
+  cursor: pointer;
+  width: 100%;
+}
+
+.sidebar__link:hover {
+  background-color: var(--col-display-bg);
+}
+
+.sidebar__link:active {
+  background-color: var(--col-display-bg);
+}
+
+.design-system__content-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 85%;
+  background-color: var(--col-display-bg);
+  padding: var(--sp-4);
+  font-family: Roboto-Regular;
+}
