@@ -1,0 +1,25 @@
+.cart-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--sp-6);
+}
+
+.cart-icon-default {
+  margin-left: 34px;
+}
+
+.cart-badge {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  font-size: var(--si-txt-small);
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  padding: 3px;
+}

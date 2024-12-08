@@ -7,7 +7,11 @@
 
   --col-primary: #007bff;
   --col-hover: #0056b3;
+  --col-active: #0057b380;
   --col-inactive: #c5c5c5;
+
+  --col-btn-primary: #ffffff;
+  --col-txt-primary: #f5f5f5;
 
   /* spacing vars */
 

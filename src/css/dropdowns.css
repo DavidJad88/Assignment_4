@@ -1,0 +1,18 @@
+select {
+  height: 32px;
+  width: 200px;
+  align-self: center;
+}
+
+.dropdown-hover {
+  background-color: lightblue;
+  border-color: blue;
+  color: black;
+}
+
+.dropdown-active {
+  background-color: lightgreen;
+  border-color: green;
+  color: black;
+  outline: none;
+}

@@ -1,0 +1,17 @@
+a {
+  text-decoration: none;
+  color: black;
+  font-size: var(--si-txt4);
+}
+
+.link--hover {
+  color: var(--col-hover);
+}
+.link--active {
+  color: var(--col-active);
+  text-decoration: underline;
+}
+
+.link--deactivated {
+  color: var(--col-inactive);
+}

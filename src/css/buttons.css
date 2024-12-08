@@ -1,0 +1,19 @@
+button {
+  height: var(--si-txt5);
+  width: 150px;
+  background-color: var(--col-primary);
+  color: var(--col-btn-primary);
+  border: none;
+  border-radius: 2rem;
+  padding: var(--sp-2);
+}
+
+.button--hover {
+  background-color: var(--col-hover);
+}
+.button--active {
+  background-color: var(--col-active);
+}
+.button--deactivated {
+  background-color: var(--col-inactive);
+}

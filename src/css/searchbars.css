@@ -1,0 +1,21 @@
+.searchbar-container {
+  display: flex;
+  height: var(--si-txt4);
+  gap: var(--sp-4);
+}
+
+input {
+  width: 250px;
+  height: var(--si-txt5);
+  padding-left: var(--sp-2);
+}
+
+.searchbar-active {
+  border-color: blue;
+}
+
+.searchbar-hover {
+  background-color: lightblue;
+  border-color: blue;
+  color: black;
+}

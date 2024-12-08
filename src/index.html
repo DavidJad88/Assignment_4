@@ -6,6 +6,15 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/buttons.css" />
+    <link rel="stylesheet" href="./css/links.css" />
+    <link rel="stylesheet" href="./css/cards.css" />
+    <link rel="stylesheet" href="./css/dropdowns.css" />
+    <link rel="stylesheet" href="./css/searchbars.css" />
+    <link rel="stylesheet" href="./css/checkboxes.css" />
+    <link rel="stylesheet" href="./css/alerts.css" />
+    <link rel="stylesheet" href="./css/cart.css" />
+
     <title>Design System</title>
   </head>
   <body>
@@ -19,12 +28,154 @@
             <li class="sidebar__link">Dropdown</li>
             <li class="sidebar__link">Searchbar</li>
             <li class="sidebar__link">Checkbox</li>
-            <li class="sidebar__link">Text input</li>
+            <li class="sidebar__link">Alerts</li>
             <li class="sidebar__link">Cart icon</li>
           </ul>
         </div>
         <div class="design-system__content-container">
-          Please select an element from the list to the left
+          <div class="content-container">
+            <button>Button Default</button>
+            <button class="button--hover">Button Hover</button>
+            <button class="button--active">Button Active</button>
+            <button class="button--deactivated">Button Deactivated</button>
+          </div>
+          <div class="content-container">
+            <a href="#">Link Default</a>
+            <a href="#" class="link--hover">Link Hover</a>
+            <a href="#" class="link--active">Link Active</a>
+            <a href="#" class="link--deactivated">Link Deactivated</a>
+          </div>
+          <div class="content-container card-content-container">
+            <div class="card--default">Card Default</div>
+            <div class="card--hover">Card Hover</div>
+          </div>
+          <div class="content-container">
+            <div>
+              <select name="#" id="#">
+                <option value="">Default</option>
+              </select>
+            </div>
+            <div>
+              <select name="" id="" class="dropdown-hover">
+                <option value="">Hover</option>
+              </select>
+            </div>
+            <div>
+              <select name="" id="" class="dropdown-active">
+                <option value="">Active</option>
+              </select>
+            </div>
+            <div>
+              <select name="" id="" class="dropdown-disabled" disabled>
+                <option value="">Deactivated</option>
+              </select>
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="searchbar-container">
+              <input type="search" name="" id="" placeholder="Default" />
+            </div>
+            <div class="searchbar-container">
+              <input
+                type="search"
+                name=""
+                id=""
+                class="searchbar-active"
+                placeholder="Active"
+              />
+            </div>
+            <div class="searchbar-container">
+              <input
+                type="search"
+                name=""
+                id=""
+                class="searchbar-hover"
+                placeholder="Hover"
+              />
+            </div>
+            <div class="searchbar-container">
+              <input
+                type="search"
+                name=""
+                id=""
+                disabled
+                placeholder="Disabled"
+              />
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="checkbox-container">
+              <label for="checkbox">Default</label>
+              <input type="checkbox" name="" id="" class="checkbox-default" />
+            </div>
+            <div class="checkbox-container">
+              <label for="checkbox">Active</label>
+              <input
+                type="checkbox"
+                name=""
+                id=""
+                class="checkbox-active"
+                checked
+              />
+            </div>
+            <div class="checkbox-container">
+              <label for="checkbox">Disabled</label>
+              <input
+                type="checkbox"
+                name=""
+                id=""
+                class="checkbox-disabled"
+                disabled
+              />
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="alert alert-success">
+              Success: Your action was completed successfully.
+            </div>
+            <div class="alert alert-warning">
+              Warning: Please double-check the form before submission.
+            </div>
+            <div class="alert alert-error">
+              Error: Something went wrong. Please try again.
+            </div>
+            <div class="alert alert-info">
+              Info: This is some additional information.
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="cart-container">
+              Cart Default
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="48px"
+                viewBox="0 -960 960 960"
+                width="48px"
+                fill="#000"
+                class="cart-icon-default"
+              >
+                <path
+                  d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"
+                />
+              </svg>
+            </div>
+            <div class="cart-container">
+              Cart with content
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="48px"
+                viewBox="0 -960 960 960"
+                width="48px"
+                fill="#000"
+                class="cart-icon-active"
+              >
+                <path
+                  d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"
+                />
+              </svg>
+              <span class="cart-badge">1</span>
+            </div>
+          </div>
         </div>
       </section>
     </main>

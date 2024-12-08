@@ -18,14 +18,16 @@ main {
   height: inherit;
   display: flex;
   flex-direction: column;
+  font-family: Roboto-Regular;
 }
 
 .design-system {
   width: 100%;
-  height: inherit;
+  height: 100vh;
   display: flex;
 }
 
+/*  */
 .design-system__sidebar-container {
   display: flex;
   flex-direction: column;
@@ -44,7 +46,6 @@ main {
   width: 100%;
   gap: var(--sp-4);
   list-style: none;
-  font-family: Roboto-Regular;
 }
 
 .sidebar__link {
@@ -63,9 +64,24 @@ main {
 
 .design-system__content-container {
   display: flex;
-  flex-direction: column;
+  height: 100vh;
   flex-basis: 85%;
-  background-color: var(--col-display-bg);
+
   padding: var(--sp-4);
-  font-family: Roboto-Regular;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--col-display-bg);
+}
+
+.content-container {
+  display: none;
+}
+.content-container--active {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-4);
+  width: 100%;
 }
