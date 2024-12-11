@@ -1,12 +1,11 @@
 Semester assignment, Kristiania University college, autumn 2024.
-Assignment for demonstration of grid implementation in css,
-as well as having the site be responsive through media queries.
+Assignment for demonstration of a design system.
+Switching between displays of elements in common states.
 
 Netlify:
-https://grid-exercise-sem1-2024.netlify.app
+https://design-system-sem1-2024.netlify.app
 
 GitHub:
-https://github.com/DavidJad88/Assignment_2
+https://github.com/DavidJad88/Assignment_4
 
-All rights to product names, branding etc, belongs to Chelsea FC.
 For educational purposes only.
